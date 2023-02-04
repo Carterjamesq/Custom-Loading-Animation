@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Comfortaa', cursive;
+}
+
+.root .text {
+    font-weight: 900;
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.container {
+    width: 50vw;
+    height: 50px;
+    border: 1.5px solid black;
+    border-radius: 15px;
+    overflow: hidden;
+}
+.load {
+    width: 0;
+    height: 50px;
+    background: rgb(25, 189, 77);
+    border-radius: 15px;
+}
